@@ -29,7 +29,7 @@ Grf_pre = Grf;
 beta = Grf/Grf_pre;
 
 while s > epsilon
-    d = -Grf + beta*d; %d is the search direction according to steepest desent method
+    d = -Grf + beta*d; %d is the search direction according to Conjugate Gradient method
 
     %starting the 1-D search to compute step size alpha -> alp
     alp = 0;

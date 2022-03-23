@@ -35,7 +35,7 @@ while s > epsilon
         x = input("Enter new starting point vector: ");
     end
 
-    d = - H(x) \ (Grf(x))'; %d is the search direction according to steepest desent method
+    d = - H(x) \ (Grf(x))'; %d is the search direction according to Newtons method
     d = d';
     %starting the 1-D search to compute step size alpha -> alp
     alp = 0;
